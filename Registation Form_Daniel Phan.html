@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dphan Registration Form</title>
+</head>
+<body>
+    <header>
+        <H1>Registration Form</H1>
+    </header>
+    <p>First Name:* <input type="text" name="First Name"></p>
+    <p>Last Name:* <input type="text" name="Last Name"></p>
+    <p>Email Address:* <input type="text" name="Email Address"></p>
+    <p>Password:* <input type="password" name="Password"></p>
+    <p>Confirm Password:* <input type="password" name="Confirm Password"></p>
+    <p>Birthday: <input type="date" name="dob"></p>
+    <p>
+        Gender Identity:
+        <br>
+        <input type="radio" name="button" id="radioMale" value="Male">
+        <label for="radioMale">Male</label>
+        <input type="radio" name="button" id="radioFemale" value="female">
+        <label for="radioFemale">Female</label>
+        <input type="radio" name="button" id="radioNon-binary" value="Non-binary">
+        <label for="radioNon-binary">Non-binary</label>
+        <input type="radio" name="button" id="NoAnswer" value="NoAnswer">
+        <label for="NoAnswer">I prefer not to answer</label>
+    </p>
+    <p>
+        A short description about myself
+    <br>
+    <textarea name="comment" cols="20" rows="3"></textarea>
+    </p>
+    <p>
+        Favorite Language:
+            <select name="Language">
+            <option>Javascript</option>
+            <option>HTML</option>
+            <option>C#</option>
+            </select>
+    </p>
+    <div>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, I would like to receive periodic email updates</label>
+    </div>
+    <br>
+    <input type="button" value="Submit">
+    <p>* Indicates a required field</p>
+</body>
+</html>
